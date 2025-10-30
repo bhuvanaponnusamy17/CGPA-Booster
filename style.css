@@ -1,0 +1,94 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 2rem;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #3a86ff;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  color: #555;
+}
+
+.course {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.course input {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+#addCourse {
+  background-color: #3a86ff;
+  margin-right: 10px;
+}
+
+#addCourse:hover {
+  background-color: #2e6edc;
+}
+
+#calculateBtn {
+  background-color: #0b8457;
+}
+
+#calculateBtn:hover {
+  background-color: #06603f;
+}
+
+#result {
+  margin-top: 20px;
+  background: #f0f4ff;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+#cgpaValue {
+  color: #3a86ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#feedbackMessage {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+  
+
+
